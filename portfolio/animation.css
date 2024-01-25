@@ -1,0 +1,41 @@
+.main{
+    width: 150px;
+    height:150px;
+    margin:40px auto;
+    position: relative;
+    background-color: darkred;
+    animation-name: colorchange;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes colorchange{
+    0%{
+        background-color: blue;
+        left: 0px;
+        top: 0px;
+
+    }
+    25%{
+         background-color: chartreuse;
+         left:150px ;
+         top: 0px;
+    }
+    50%{
+          background-color: black;
+          left:150px ;
+          top:150px ;
+    }
+    75%{
+         background-color: crimson;
+         left: 0px;
+         top:150px ;
+
+    }
+    100%{
+         background-color: maroon;
+         left:0px ;
+         top:0px ;
+    }
+}

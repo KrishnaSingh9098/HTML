@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../control"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "F:/java8"
+		},
+		{
+			"path": "../../PATTERN"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "HTML"
+	}
+}

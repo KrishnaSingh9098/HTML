@@ -1,0 +1,32 @@
+section{
+    width : 350px;
+    height : 350px;
+    margin : 40px auto;
+    position:relative;
+    transition: 2s;
+    transform-style: preserve-3d;
+
+}
+body{
+    perspective: 900px;
+}
+section:hover{
+    transform : rotateY(180deg);
+}
+div{
+    height : 100%;
+    width: 100%;
+    
+}
+.side-a{
+    background-color: chartreuse;
+    z-index: 1;
+}
+.side-b{
+    background-color: darkorchid;
+    transform: rotateY(180deg);
+}
+.side-a,.side-b{
+    position:absolute ;
+    backface-visibility: hidden;
+}

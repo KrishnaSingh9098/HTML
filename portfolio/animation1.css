@@ -1,0 +1,30 @@
+div{
+    height:300px;
+    width:300px;
+    background-color:red;
+    animation-name: someone;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+    
+}
+@keyframes someone{
+    0%{
+        height: 300px;
+        width:400px;
+        background-color: black;
+    }
+    25%{
+        height:100vh;
+        width: 500px;
+
+    }
+    50%{
+        height:24vh;
+        width:100vw;
+    }
+    100%{
+        border-radius: 50%;
+        background-color: blue;
+    }
+}

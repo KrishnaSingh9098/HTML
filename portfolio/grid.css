@@ -1,0 +1,46 @@
+.parent{
+    height: 900px;
+    width: 200vh;
+    border: 2px solid green;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 150px 150px 150px;
+}
+.child{
+    background-color: aqua;
+    border: 2px solid red;
+}
+div :nth-last-of-type(1){
+    background-color: black;
+}
+div :nth-of-type(2)
+{
+    background-color: blue;
+}
+div :nth-of-type(3){
+    background-color: blueviolet;
+}
+div :nth-of-type(4)
+{
+    background-color: chartreuse;
+}
+div :nth-of-type(5){
+    background-color: goldenrod;
+}
+div :nth-of-type(6){
+    background-color: indigo;
+}
+div :nth-of-type(7)
+{
+    background-color: mediumvioletred;
+}
+div :nth-of-type(8)
+{
+    background-color: azure;
+}
+#one{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    
+}

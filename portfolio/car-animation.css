@@ -1,0 +1,29 @@
+.truck{
+    position: fixed;
+    bottom:0px;
+    animation: truckmoving 10s 0s infinite linear;
+    left: -200px;
+}
+.wheel-outer{
+    display: flex;
+    justify-content: space-around;
+}
+.wheel-outer img{
+    animation:wheel-rotate 3s 0s infinite linear ;
+} 
+@keyframes truckmoving{
+    0%{
+        left:- 200px;
+    }
+    100%{
+        left: 100%;  
+    }
+}
+@keyframes wheel-rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
